@@ -31,7 +31,7 @@ The project contains the following files and folders:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/creative-minds.git
+   git clone https:(https://github.com/AlishaKhan77/IDS_Assignment1.git)
    ```
 
 2. Open the `index.html` file in any browser to view the website.
@@ -63,4 +63,4 @@ A minor conflict occurred while merging the portfolio section branch into the ma
    ![Commit History](assets/commit-history.png)
 
 2. **Project on GitHub**:  
-   [Creative Minds on GitHub](https://github.com/your-username/creative-minds
+   [Creative Minds on GitHub]https://github.com/AlishaKhan77/IDS_Assignment1.git
