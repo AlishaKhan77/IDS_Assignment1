@@ -26,9 +26,9 @@ nav {
     padding: 20px 40px; /* Increased horizontal padding */
 }
 
-.logo h1 {
-    font-size: 2.2rem; /* Slightly increased font size */
-    font-weight: 800; /* Increased font weight */
+.logo img {
+    max-width: 150px; /* Adjust as necessary */
+    height: auto;
 }
 
 .nav-links {
