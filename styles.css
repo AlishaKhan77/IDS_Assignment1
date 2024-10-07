@@ -27,9 +27,13 @@ nav {
 }
 
 .logo img {
-    max-width: 150px; /* Adjust as necessary */
+    max-width: 80px; /* Adjust the width to your needs */
+    max-height: 80px; /* Ensure it does not exceed a specific height */
+    width: auto;
     height: auto;
 }
+
+
 
 .nav-links {
     display: flex;
