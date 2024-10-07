@@ -20,21 +20,20 @@ header {
     position: relative;
 }
 
+/* Responsive Navigation */
 nav {
     display: flex;
     justify-content: space-between;
     padding: 20px 40px; /* Increased horizontal padding */
+    flex-wrap: wrap; /* Allows wrapping for smaller screens */
 }
 
 .logo img {
     max-width: 80px; /* Adjust the width to your needs */
     max-height: 80px; /* Ensure it does not exceed a specific height */
-    width: auto;
-    height: auto;
 }
 
-
-
+/* Navigation Links */
 .nav-links {
     display: flex;
     gap: 25px; /* Increased gap */
@@ -44,6 +43,11 @@ nav {
     color: #f8f8f8; /* Slightly lightened link color */
     text-decoration: none;
     font-weight: 600; /* Increased font weight */
+    transition: color 0.3s; /* Added transition for hover */
+}
+
+.nav-links a:hover {
+    color: #ff5252; /* Change link color on hover */
 }
 
 .hero {
@@ -72,11 +76,12 @@ nav {
     border-radius: 8px; /* Rounded corners */
     text-decoration: none;
     font-weight: 600; /* Increased font weight */
-    transition: background-color 0.3s; /* Added transition effect */
+    transition: background-color 0.3s, transform 0.3s; /* Added transition effects */
 }
 
 .cta-btn:hover {
     background-color: #e64e4e; /* Added hover effect */
+    transform: translateY(-2px); /* Slight lift effect on hover */
 }
 
 /* Services Section */
@@ -94,6 +99,7 @@ nav {
     display: flex;
     justify-content: space-around;
     gap: 30px; /* Added gap between services */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
 }
 
 .service {
@@ -102,6 +108,7 @@ nav {
     border-radius: 12px; /* Rounded corners */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
     max-width: 320px; /* Increased max-width */
+    flex: 1 1 300px; /* Responsive flex properties */
 }
 
 .service h3 {
@@ -123,7 +130,7 @@ nav {
 
 .portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Changed to 3 columns */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
     gap: 25px; /* Increased gap */
 }
 
